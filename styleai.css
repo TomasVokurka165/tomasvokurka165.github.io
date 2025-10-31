@@ -1,0 +1,19 @@
+/*
+Margins
+*/
+.mg-header {
+    margin: 20px;
+}
+
+.mg-subheader {
+    margin: 0px 30px 30px 30px;
+}
+
+.mg-text {
+    margin: 50px 50px 5px 50px;
+    
+}
+
+.mg-img {
+    margin: 40px 10px 5px 10px;
+}

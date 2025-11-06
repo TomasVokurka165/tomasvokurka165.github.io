@@ -1,31 +1,32 @@
-h1 {
-    text-align: center;
-    background-color: beige;
+.footer-list {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    list-style-type: none;
 }
-
-h2 {
-    background-color: rgb(255, 248, 239);
-}
-
-ul {
-    list-style-type: none; 
-    margin: 0; padding: 0; 
-    overflow: hidden; 
-    background-color: #333333;
-}
-
-ul li {
+.footer-list li {
     float: left;
+    margin: 30px 5px 5px 5px;
 }
 
-ul li a {
-    display: block;
+.footer-list li.final-item {
+    float: right;
+    margin: 30px 5px 0px 5px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-div {
-    border: solid black;
+.footer-list li a, .footer-list li p {
+    color: white;
+}
+
+.footer-list li a:hover {
+    color: rgb(165, 165, 165);
+}
+
+.trailer {
+    padding: 0px;
+}
+.navbar.custom-border {
+  border-bottom: 3px solid lightslategray;
 }

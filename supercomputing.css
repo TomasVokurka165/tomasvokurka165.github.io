@@ -27,3 +27,6 @@
 .trailer {
     padding: 0px;
 }
+.navbar.custom-border {
+  border-bottom: 3px solid lightslategray;
+}
